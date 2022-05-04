@@ -91,11 +91,11 @@ section {
 
 .section-title {
     font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     display: inline-block;
+    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
+    margin-bottom: 35px;
+    color: #024e76;
 }
 
 .primary-border {
@@ -178,14 +178,17 @@ section {
 }
 
 .contact {
-    background-color: #024e76;
+    background: #024e76;
     text-align: center;
 }
 
 .contact h2 {
-    text-align: center;
     color: #fce138;
-    border-bottom: teal;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
 }
 
 /* Hero Style*/
