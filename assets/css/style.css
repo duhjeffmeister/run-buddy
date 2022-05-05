@@ -52,10 +52,6 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.intro {
-    text-align: center;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -64,10 +60,10 @@ body {
     /*Sets a margin of zero and a left and right margin of auto 
     which tells the browser to calculate the margin for us. */
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -101,11 +97,12 @@ section {
 
 .section-title {
     font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    margin-bottom: 35px;
     color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -141,7 +138,6 @@ section {
 }
 
 .trainers {
-    text-align: center;
 }
 
 .trainer {
@@ -190,7 +186,6 @@ section {
 /*Reach out styles*/
 .contact {
     background: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
@@ -227,6 +222,10 @@ section {
     color: #fce138;
 }
 /*Reach out styles end*/
+
+.flex-row {
+    display: flex;
+}
 
 /* Hero Style*/
 .hero {
